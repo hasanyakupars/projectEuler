@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     int a,b,csq,total=1000;
+    
     for(a=1; a<total; a++){
         for(b=1; b<total/2; b++){
             csq = a*a + b*b;
