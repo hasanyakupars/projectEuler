@@ -14,6 +14,7 @@ int main()
                 goto theEnd;
         }
     }
+    
     theEnd:
     int c = sqrt(csq);
     cout << " a: " << a << "\n b: " << b << "\n c: " << c << "\n mult: " << a*b*c;
