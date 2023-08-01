@@ -4,7 +4,7 @@ which do not exceed four million. */
 
 int main()
 {
-    int a=1, b=1, c, temp, sum=0;
+    int a=1, b=1, c=0, temp, sum=0;
     
     while (c < 4000000)
     {
