@@ -14,12 +14,12 @@ int multiplyBy(int number, list<int> &mylist){
         }
     }
     
-    // Check if the number to multiply is divisible to any other primal numbers. (not primal).
+    // Check if the number to multiply is divisible to any other prime numbers. (not prime).
     for (auto it = mylist.begin(); it != mylist.end(); ++it){
         if(number % *it == 0 && *it != 1)
             return 1; // if so, return 1 so that doesn't effect result.
     }
-    return number; // return the number (primal number).
+    return number; // return the number (prime number).
 }
 
 int main()
